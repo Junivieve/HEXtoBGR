@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HEXtoBGR</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="app">
+      <h1>HEX to BGR</h1>
+      <input type="text" id="inputcolor" name="hexvalue" value="#FFFFFF" onkeydown="this.value = this.value.toUpperCase();" maxlength="6" onchange="colorChange()">
+      <button type="button" id ="calc" name="convertButton" onclick="colorChange()">convert</button>
+      <h4 id= "creditText">@catpunchstudios</h4>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
